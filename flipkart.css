@@ -1,0 +1,313 @@
+body {
+    margin: 0px;
+}
+
+
+/*Header Section*/
+
+header {
+    /*border: solid 1px red;*/
+    height: 60px;
+    background-color: #2874f0;
+}
+
+.brand {
+    float: left;
+}
+
+#logo {
+    height: 24px;
+    width: 100px;
+    margin-top: 17%;
+    margin-left: 390%;
+}
+
+#Search {
+    height: 28px;
+    width: 536px;
+    margin-top: 3%;
+    margin-left: 75%;
+    border: none;
+}
+
+#log {
+    color: #2874f0;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    height: 26px;
+    width: 117px;
+    margin-top: 1%;
+    margin-left: 23%;
+}
+
+.cart {
+    height: 50px;
+    width: 200px;
+    /*border: 2px solid black;*/
+    margin-left: 63%;
+    margin-top: -2%;
+}
+
+#cartLogo {
+    height: 29px;
+    width: 31px;
+    margin-top: 4%;
+    margin-left: 9%;
+}
+
+.cart>span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 3%;
+}
+
+
+/*Banner Section*/
+
+#Banner {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    /*border: 2px solid red;*/
+    /*background-image: url(img/OppoBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 344px;*/
+}
+
+.tileComponent0 {
+    width: 100%;
+    height: 245px;
+}
+
+.tileComponent0>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+
+/*Electronics Sections*/
+
+#Electronics {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 5px gray;
+    /*border: 5px double orange;*/
+}
+
+.tileContainer {
+    height: 357px;
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 1%;
+    /*border: 1px solid black;*/
+    float: left;
+}
+
+.tileComponent1 {
+    width: 100%;
+    height: 250px;
+}
+
+.tileComponent1>img {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tileComponent2 {
+    width: 100%;
+}
+
+.compHeading1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.compSubHeading1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.compSubHeading1>button {
+    color: white;
+    font-weight: bold;
+    background-color: #2874f0;
+    border: none;
+    height: 26px;
+    width: 117px;
+}
+
+
+/** Camera, PowerBank, Monitors, Projectors, Printers **/
+
+.compHeading2 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.compSubHeading2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 160, 49);
+    margin-top: 10px;
+}
+
+.compSubHeading3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+/*Cloths Section*/
+
+#Beauty {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 5px gray;
+    /*border: 5px groove green;*/
+}
+
+
+/* Home and Kitchen Essentials section */
+
+#Home_Essentials {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 5px gray;
+    /*border: 5px solid red;*/
+}
+
+
+/*Fashion Section*/
+
+#Fashion_Deals {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 5px gray;
+}
+
+
+/*TV & Appliances*/
+
+#TopDealsOn_TvAppliances {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 5px gray;
+}
+
+
+/*About*/
+
+.AboutFlipkart {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: auto;
+    width: 98%;
+}
+
+.AboutFlipkart>h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.AboutFlipkart>h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #172337;
+    color: white;
+}
+
+.footer1 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.leftSide {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.rightSide {
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-left: gray solid 1px;
+    padding-left: 20px;
+}
+
+.footerTitle {
+    color: gray;
+    font-size: 13px;
+    margin-left: 38px;
+}
+
+.footerTitle2 {
+    color: gray;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer>hr {
+    color: gray;
+}
+
+.footer2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2>table {
+    padding-left: 132px;
+}
+
+table {
+    padding-left: 132px;
+}
+
+.thead {
+    padding-right: 130px;
+}
+
+.thead>img {
+    height: 27px;
+    width: 367px;
+}
