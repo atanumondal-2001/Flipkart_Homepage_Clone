@@ -11,4 +11,5 @@ Homepage clone with the following sections :
                   
 Preview :
 
-![homepage_SS](https://user-images.githubusercontent.com/69724446/226093950-dea1ec50-d0b6-4c50-af4a-5f0a7b25d8de.png)
+
+![Homepage_SS](https://user-images.githubusercontent.com/69724446/228211109-aa3df3bd-965d-4b97-bbe5-e49b641ff958.png)
