@@ -130,7 +130,7 @@ header {
 .compHeading1 {
     font-size: 35px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: -11px;
 }
 
 .compSubHeading1 {
@@ -296,15 +296,11 @@ footer>hr {
 }
 
 .footer2>table {
-    padding-left: 132px;
-}
-
-table {
-    padding-left: 132px;
+    margin-left: 130px;
 }
 
 .thead {
-    padding-right: 130px;
+    padding-right: 138px;
 }
 
 .thead>img {
