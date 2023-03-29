@@ -83,6 +83,7 @@ header {
 #image {
     height: 280px;
     width: 95%;
+    margin: auto;
 }
 
 
