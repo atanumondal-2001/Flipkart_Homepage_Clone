@@ -67,27 +67,23 @@ header {
 
 /*Banner Section*/
 
-#Banner {
+#devCarousel {
     width: 90%;
-    height: 250px;
+    height: 300px;
     margin: auto;
-    /*border: 2px solid red;*/
-    /*background-image: url(img/OppoBanner.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 344px;*/
+    /*border: solid 2px red;*/
 }
 
-.tileComponent0 {
+.carousel-inner {
     width: 100%;
-    height: 245px;
+    height: 100%;
+    align-items: center;
 }
 
-.tileComponent0>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 100%;
+#image {
+    height: 280px;
+    width: 95%;
+    margin: auto;
 }
 
 
