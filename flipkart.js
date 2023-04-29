@@ -12,5 +12,5 @@ function loadCoupon() {
 
 function closeCoupon() {
     document.getElementById('coupon').style.visibility = 'hidden';
-    document.getElementById('allElements').style.opacity = '1'
+    document.getElementById('allElements').style.opacity = '1';
 }
