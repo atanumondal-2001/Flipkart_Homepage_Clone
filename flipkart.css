@@ -1,4 +1,4 @@
-body {
+#allElements {
     margin: 0px;
 }
 
@@ -339,4 +339,26 @@ footer>hr {
 
 .DarkMode .modeBtn {
     color: rgb(41, 38, 38);
+}
+
+
+/* Coupons section */
+
+#allElements {
+    z-index: 1;
+}
+
+#coupon {
+    height: 400px;
+    width: 800px;
+    /*background-color: red;*/
+    z-index: 1000;
+    opacity: 1;
+    position: absolute;
+    margin-top: -216%;
+    margin-left: 28%;
+    visibility: hidden;
+    background-image: url("img/Coupon1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
