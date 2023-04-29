@@ -64,6 +64,27 @@ header {
     margin-left: 3%;
 }
 
+.mode {
+    height: 50px;
+    width: 50px;
+    margin-left: 95%;
+    margin-top: -52px;
+    text-align: center;
+    /*border: solid 1px black;*/
+}
+
+.modeBtn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: transparent;
+    color: yellow;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 1px 9px rgb(177, 172, 172);
+}
+
 
 /*Banner Section*/
 
@@ -302,4 +323,20 @@ footer>hr {
 .thead>img {
     height: 27px;
     width: 367px;
+}
+
+
+/* Dark theme */
+
+.DarkMode {
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.DarkMode .AboutFlipkart {
+    color: whitesmoke;
+}
+
+.DarkMode .modeBtn {
+    color: rgb(41, 38, 38);
 }

@@ -11,9 +11,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="img/flipkart1.png" />
     <link rel="stylesheet" href="flipkart.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body>
+<body class="lightmode" id="MainBody">
     <header>
         <div class="brand">
             <img id="logo" src="img/flipkart3.png" alt="flipkart">
@@ -27,6 +28,9 @@
         <div class="cart">
             <img id="cartLogo" src="img/carts.png" alt="cart">
             <span>Cart</span>
+        </div>
+        <div class="mode">
+            <button class="modeBtn" onclick="changeMode()"><i class="fa-solid fa-lightbulb"></i></button>
         </div>
     </header>
     <br>
@@ -795,6 +799,8 @@
 
 
     </footer>
+
+    <script src="flipkart.js"></script>
 
 
 </body>
