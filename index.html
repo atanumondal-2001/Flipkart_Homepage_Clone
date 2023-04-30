@@ -810,7 +810,27 @@
 
     <!-- Coupons Sections -->
     <div id="coupon">
-        <button onClick="closeCoupon()">&times;</button>
+
+        <div id="devCarousel2" class="carousel slide" data-ride="carousel">
+            <button id="closeButton" onClick="closeCoupon()">X</button>
+            <ol class="carousel-indicators">
+                <li data-target="#devCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#devCarousel2" data-slide-to="1"></li>
+                <li data-target="#devCarousel2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item carousel-image bg-img-1 active ">
+
+                </div>
+                <div class="item carousel-image bg-img-2">
+
+                </div>
+                <div class="item carousel-image bg-img-3">
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="flipkart.js"></script>

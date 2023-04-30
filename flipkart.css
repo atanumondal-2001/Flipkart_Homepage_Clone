@@ -348,17 +348,41 @@ footer>hr {
     z-index: 1;
 }
 
-#coupon {
+#devCarousel2 {
     height: 400px;
     width: 800px;
     /*background-color: red;*/
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     position: absolute;
     margin-top: -216%;
     margin-left: 28%;
-    visibility: hidden;
-    background-image: url("img/Coupon1.jpg");
+    /*visibility: hidden;*/
+    /*background-image: url("img/Coupon1.jpg");*/
+}
+
+.bg-img-1 {
+    background-image: url(img/Coupon1.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/Coupon2.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/Coupon3.jpg);
+}
+
+.carousel-image {
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#closeButton {
+    margin-left: 96%;
+    background: transparent;
+    font-size: 30px;
+    border: none;
 }
