@@ -1,5 +1,5 @@
 # Flipkart_Homepage_Clone
-Flipkart Homepage Clone Using HTML, CSS, Bootstrap 3 and Javascript with dark light mode
+Flipkart Homepage Clone Using HTML, CSS, Bootstrap 3 and Javascript with dark light mode and Geo-Location Function (On a button click you will get to see Your Location, State and Country)
 
 Homepage clone with the following sections :
                   1. Navigation Bar
@@ -11,16 +11,20 @@ Homepage clone with the following sections :
                   
 Preview :
 
+![FrontScreen](https://user-images.githubusercontent.com/69724446/237033790-14973594-d405-4da8-97ff-698bdd0b9958.png)
 
-
-![FrontScreen](https://user-images.githubusercontent.com/69724446/235335379-3b544d6c-1648-4753-bbd1-5a58af905747.png)
 
 LightMode:
 
-
-![Lightmode](https://user-images.githubusercontent.com/69724446/235335385-7b7658b2-7945-42d0-bc7b-86252f51080d.png)
+![LightMode](https://user-images.githubusercontent.com/69724446/237033831-d6654ef1-e699-44af-842d-50094ce68882.png)
 
 
 DarkMode:
 
-![Darkmode](https://user-images.githubusercontent.com/69724446/235335394-d61c8da9-118d-46ba-a878-fbda24b9bfa1.png)
+![DarkMode](https://user-images.githubusercontent.com/69724446/237034030-ffa6fccf-6664-4e7f-aa33-5c5e927ae9c1.png)
+
+
+
+
+                                                            THANK YOU
+
