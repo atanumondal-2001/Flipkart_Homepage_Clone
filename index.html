@@ -30,6 +30,12 @@
                 <img id="cartLogo" src="img/carts.png" alt="cart">
                 <span>Cart</span>
             </div>
+            <div id="location">
+                <button id="loc_btn"><img id="loc_img" src="img/pin-location-4355.svg" alt="Location"></button>
+            </div>
+            <div id="locationOut">
+
+            </div>
             <div class="mode">
                 <button class="modeBtn" onclick="changeMode()"><i class="fa-solid fa-lightbulb"></i></button>
             </div>
@@ -832,7 +838,7 @@
         </div>
 
     </div>
-
+    <script src="Geolocation.js"></script>
     <script src="flipkart.js"></script>
     <script>
         window.onload = loadCoupon()

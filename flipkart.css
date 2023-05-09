@@ -64,11 +64,46 @@ header {
     margin-left: 3%;
 }
 
+#location {
+    height: 50px;
+    width: 50px;
+    margin-top: -48px;
+    margin-left: 70%;
+    background-color: #2874f0;
+}
+
+#loc_btn {
+    background: #2874f0;
+    outline: none;
+    border: none;
+}
+
+#loc_img {
+    height: 40px;
+    width: 40px;
+}
+
+#locationOut {
+    height: 50px;
+    width: 130px;
+    margin-top: -55px;
+    margin-left: 73%;
+    color: white;
+    font-weight: bold;
+    /*border: solid 1px black;*/
+    text-align: center;
+    justify-content: center;
+}
+
+#locationOut .OutPut {
+    margin-top: 5px;
+}
+
 .mode {
     height: 50px;
     width: 50px;
     margin-left: 95%;
-    margin-top: -52px;
+    margin-top: -50px;
     text-align: center;
     /*border: solid 1px black;*/
 }
