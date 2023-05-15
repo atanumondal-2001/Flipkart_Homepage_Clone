@@ -31,9 +31,11 @@ const showLoc = async(position) => {
     );
 
     let data = await response.json();
-    console.log(data.address.state_district);
+    console.log(data);
+    console.log(data.address.county);
     console.log(data.address.state);
     console.log(data.address.country_code);
 
-    locOutput.innerHTML = `<p class=OutPut>${data.address.state_district}, ${data.address.state}, ${data.address.country_code}</p>`;
+    locOutput.innerHTML = `<span class=OutPut><b id=city_name>${data.address.county}</b>, ${data.address.state}, ${data.address.country_code}</span>`;
+
 }

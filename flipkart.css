@@ -19,14 +19,14 @@ header {
     height: 24px;
     width: 100px;
     margin-top: 17%;
-    margin-left: 390%;
+    margin-left: 247%;
 }
 
 #Search {
     height: 28px;
     width: 536px;
     margin-top: 3%;
-    margin-left: 75%;
+    margin-left: 50%;
     border: none;
 }
 
@@ -38,14 +38,14 @@ header {
     height: 26px;
     width: 117px;
     margin-top: 1%;
-    margin-left: 23%;
+    margin-left: 15%;
 }
 
 .cart {
     height: 50px;
     width: 200px;
     /*border: 2px solid black;*/
-    margin-left: 63%;
+    margin-left: 56%;
     margin-top: -2%;
 }
 
@@ -68,7 +68,7 @@ header {
     height: 50px;
     width: 50px;
     margin-top: -48px;
-    margin-left: 70%;
+    margin-left: 62%;
     background-color: #2874f0;
 }
 
@@ -87,7 +87,7 @@ header {
     height: 50px;
     width: 130px;
     margin-top: -55px;
-    margin-left: 73%;
+    margin-left: 65%;
     color: white;
     font-weight: bold;
     /*border: solid 1px black;*/
@@ -97,6 +97,38 @@ header {
 
 #locationOut .OutPut {
     margin-top: 5px;
+}
+
+#Weather {
+    height: 50px;
+    width: 50px;
+    margin-top: -48px;
+    margin-left: 73%;
+    background-color: #2874f0;
+}
+
+#weather_btn {
+    background: #2874f0;
+    outline: none;
+    border: none;
+}
+
+#weather_img {
+    height: 40px;
+    width: 40px;
+    margin-left: -4px;
+}
+
+#weather_out {
+    height: 50px;
+    width: 206px;
+    margin-top: -52px;
+    margin-left: 76%;
+    color: white;
+    font-weight: bold;
+    /*border: solid 1px black;*/
+    text-align: center;
+    justify-content: center;
 }
 
 .mode {
