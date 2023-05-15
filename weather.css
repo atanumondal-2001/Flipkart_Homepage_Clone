@@ -1,0 +1,29 @@
+#Weather {
+    height: 50px;
+    width: 50px;
+    margin-top: -48px;
+    margin-left: 73%;
+    background-color: #2874f0;
+}
+
+#weather_btn {
+    background: #2874f0;
+    outline: none;
+    border: none;
+}
+
+#weather_img {
+    height: 40px;
+    width: 40px;
+    margin-left: -4px;
+}
+
+#weather_out {
+    height: 50px;
+    width: 206px;
+    margin-top: -52px;
+    margin-left: 76%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
