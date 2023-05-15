@@ -126,7 +126,6 @@ header {
     margin-left: 76%;
     color: white;
     font-weight: bold;
-    /*border: solid 1px black;*/
     text-align: center;
 }
 
@@ -136,7 +135,6 @@ header {
     margin-left: 95%;
     margin-top: -50px;
     text-align: center;
-    /*border: solid 1px black;*/
 }
 
 .modeBtn {
