@@ -17,6 +17,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
 }
 
 .brand {
@@ -424,6 +425,10 @@ footer>hr {
     color: whitesmoke;
 }
 
+.DarkMode .bottom {
+    color: white;
+}
+
 .DarkMode .modeBtn {
     color: rgb(41, 38, 38);
 }
@@ -442,7 +447,7 @@ footer>hr {
     z-index: 100;
     opacity: 1;
     position: absolute;
-    margin-top: -216%;
+    margin-top: -232%;
     margin-left: 28%;
     /*visibility: hidden;*/
     /*background-image: url("img/Coupon1.jpg");*/
