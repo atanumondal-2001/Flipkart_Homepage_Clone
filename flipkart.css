@@ -8,7 +8,15 @@
 header {
     /*border: solid 1px red;*/
     height: 60px;
+    /*background-color: #2874f0;*/
+}
+
+.navbar {
+    overflow: hidden;
     background-color: #2874f0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .brand {
@@ -120,12 +128,57 @@ header {
 }
 
 
+/* Category Section */
+
+.Category {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 4px 5px gray;
+}
+
+.Fashion0 {
+    margin-left: 50px;
+}
+
+.Appliances0 {
+    margin-left: 50px;
+}
+
+.Electronics0 {
+    margin-left: 50px;
+}
+
+.TopOffers0 {
+    margin-left: 50px;
+}
+
+.bottom {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Category .bottom:Hover {
+    color: #2874f0;
+}
+
+.Category a {
+    text-decoration: none;
+}
+
+
 /*Banner Section*/
 
 #devCarousel {
     width: 90%;
     height: 300px;
     margin: auto;
+    overflow: hidden;
     /*border: solid 2px red;*/
 }
 
@@ -148,7 +201,7 @@ header {
     width: 90%;
     height: 400px;
     margin: auto;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 5px 4px 5px gray;
     /*border: 5px double orange;*/
 }
 
@@ -233,7 +286,7 @@ header {
     width: 90%;
     height: 400px;
     margin: auto;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 5px 4px 5px gray;
     /*border: 5px groove green;*/
 }
 
@@ -244,7 +297,7 @@ header {
     width: 90%;
     height: 400px;
     margin: auto;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 5px 4px 5px gray;
     /*border: 5px solid red;*/
 }
 
@@ -255,7 +308,7 @@ header {
     width: 90%;
     height: 400px;
     margin: auto;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 5px 4px 5px gray;
 }
 
 
@@ -265,7 +318,7 @@ header {
     width: 90%;
     height: 400px;
     margin: auto;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 5px 4px 5px gray;
 }
 
 
